@@ -1,0 +1,7 @@
+Things I Want to Understand Better:
+
+- contenteditable HTML attribute
+- typeahead + tables (possible in http://handsontable.com/dist/jquery.handsontable.full.js)
+- Autocomplete documentation (http://api.jqueryui.com/autocomplete/). I may want
+to change this because bootstrap also has a typeahead library
+http://getbootstrap.com/2.3.2/javascript.html#typeahead.

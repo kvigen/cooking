@@ -1,0 +1,28 @@
+- The layout will have 3 main pages
+  1. The main page. This will just be a welcome screen for now
+  2. The individual recipe page. This is discussed in more depth below
+  3. The all recipes page. This will contain a list of all the recipes for the user
+
+
+Version 1 Features:
+- The ability to create recipes. Recipes will have a 3 column format. The first
+  column is the # of the ingredient, the second is the unit, the 3rd in the
+  ingredient itself. For example, 1 cup brown sugar.
+- The ability to save recipes. These recipes will show up in the all recipes page.
+- The ability to change recipes and see information about what that would do to
+  the results.
+- The ability to take "actions" on a recipe. An action would be something like
+  doubling the recip or making it gluten free
+- The ability for a user to log into the site and maintain their own recipe list.
+  We will probably support logging in through facebook or Google
+
+Potential Future Features:
+- Converting units for ingredients
+- Substitution options for ingredients
+- Recommendations on cooking time based on pan size
+- The ability to share recipes
+- Should the recipes list just be a dropdown (see http://getbootstrap.com/2.3.2/components.html#navs)
+  - Or should the pages just be embedded together
+- Information about the recipe, like calories
+- Lineage (ie knowing what recipes were modifications of other recipes)
+- A better way to organize recipes, by type, etc...

@@ -1,0 +1,16 @@
+{
+  "name": "Sample Recipe",
+  "ingredients": [
+    {
+      "name": "flour",
+      "quantity": 4,
+      "units": "cups"
+    },
+    {
+      "name": "sugar",
+      "quantity": 2,
+      "units": "grams"
+    }
+  ]
+}
+ 

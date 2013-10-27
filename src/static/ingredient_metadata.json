@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "name": "flour"
+    },
+    {
+      "name": "sugar"
+    }
+  ],
+  "units": [
+    {
+      "name": "cups"
+    },
+    {
+      "name": "grams"
+    }
+  ]
+}
