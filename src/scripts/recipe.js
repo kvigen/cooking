@@ -3,14 +3,23 @@ ingredientMetadata = undefined;
 editMode = false;
   
 var toggleEditMode = function() {
+  $('.dropdown-menu').dropdown();
   editMode = !editMode;
-  if (editMode) {
-    $("#editButton").text("Save");
-  } else {
-    $("#editButton").text("Edit");
-  }
   renderTable();
 }
+
+// TODO: Should really build the recipe actions dynamically at some point
+var doubleRecipe = function() {
+  if (!recipe) {
+    return;
+  }
+  _.each(recipe.ingredients, function(ingredient) {
+    ingredient.quantity *= 2;
+  });
+  editMode = true;
+  renderTable();
+}
+  
 
 var renderTable = function() {
   if (!recipe || !ingredientMetadata) {
@@ -29,6 +38,11 @@ var renderTable = function() {
     addElem(ingredient.units, ingredientMetadata.getUnitNames(), row);
     addElem(ingredient.name, ingredientMetadata.getIngredientNames(), row);
   });
+  if (editMode) {
+    $("#editButton").text("Save");
+  } else {
+    $("#editButton").text("Edit");
+  }
 }
 
 
