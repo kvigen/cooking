@@ -5,13 +5,17 @@ TODOs:
 
 
 Engineering TODO list:
-- Create the corresponding git repo
-- Setup django
-- Think about what it would take to set this up on EC2
 - Confirm that the site is valid html5
+- Add script to parse the recipe information (python for now)
+- Add ability to add and remove rows from the recipe
+- Validation on the fields in the recipe
+- Integrate the recipes list and single recipe page
+- Provide way to really save recipes
+- Think about making it pretty
 - Investigate mustasche for templating
 - Think about the path structure and how to model it
 - Figure out a better way to organize java script files
+- Go over performance advice for javascript
 - Figure out a better system for generating the headers we need (see what CM does...)
 - Testing...
 - Remove the Django hacks and integrate with a true web server (apache??)

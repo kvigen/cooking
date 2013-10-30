@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 
   $.getJSON("../static_json/all_recipes.json", function(all_recipes) {
     _.each(all_recipes.recipes, function(recipe) {

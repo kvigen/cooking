@@ -20,10 +20,10 @@
     <h2 id="recipeName"></h2>
     <table class="table table-bordered" id="recipeBody"></table>
     <div class="dropdown pull-right">
-      <button type="button" class="btn btn-primary" id="editButton" onclick="toggleEditMode()">Edit</button>
+      <button type="button" class="btn btn-primary" id="editButton" onclick="recipeMenu.toggleEditMode()">Edit</button>
       <button type="button" id="drop" role="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Actions<b class="caret"></b></button>
        <ul class="dropdown-menu" role="menu" aria-labelledby="drop">
-         <li role="presentation"><a role="menuitem" onclick="doubleRecipe()">Double Recipe</a></li>
+         <li role="presentation"><a role="menuitem" onclick="recipeMenu.action('double');">Double Recipe</a></li>
        </ul>
     </div>
   </div>
