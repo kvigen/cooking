@@ -5,7 +5,6 @@ TODOs:
 
 
 Engineering TODO list:
-- Confirm that the site is valid html5
 - Add script to parse the recipe information (python for now)
 - Add ability to add and remove rows from the recipe
 - Validation on the fields in the recipe
