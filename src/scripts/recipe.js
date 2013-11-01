@@ -1,7 +1,7 @@
+define([], function() {
+
 recipeMenu = undefined;
 ingredientMetadata = undefined;
-
-// Ultimately I want to return this from a function
 
 var RecipeMenu = function() {
 
@@ -9,13 +9,13 @@ var RecipeMenu = function() {
   that.recipe = undefined;
   that.editMode = false;
  
-  this.toggleEditMode = function() {
+  that.toggleEditMode = function() {
     $('.dropdown-menu').dropdown();
     that.editMode = !that.editMode;
     that.renderTable();
   }
 
-  this.action = function(action) {
+  that.action = function(action) {
     if (!that.recipe) {
       return;
     }
@@ -27,7 +27,7 @@ var RecipeMenu = function() {
     that.renderTable();
   }
 
-  this.renderTable = function() {
+  that.renderTable = function() {
     if (!that.recipe || !ingredientMetadata) {
       return;
     }
@@ -51,7 +51,7 @@ var RecipeMenu = function() {
     }
   }
 
-  this.addElem = function(defaultVal, typeaheadValues, row) {
+  that.addElem = function(defaultVal, typeaheadValues, row) {
     var elem = $("<th></th>").appendTo(row);
     if (that.editMode) { 
       var input = $("<input type=\"text\" value=\"" + defaultVal + "\"/>").autocomplete({ source: typeaheadValues, autoFill: true, selectFirst: true, width: '240px' });
@@ -60,9 +60,21 @@ var RecipeMenu = function() {
       elem.text(defaultVal);
     }
   }
-}
+  $(document).ready(function() {
+    
+    $.getJSON("../static_json/ingredient_metadata.json", function(inputIngredients) {
+      ingredientMetadata = new IngredientsMetadata(inputIngredients);
+      that.renderTable();
+    });
 
-var recipeMenu = new RecipeMenu();
+    // TODO: Choose the recipe dynamically
+    $.getJSON("../static_json/recipe.json", function(inputRecipe) {
+      $("#recipeName").text(inputRecipe.name);
+      that.recipe = new Recipe(inputRecipe);
+      that.renderTable();
+    });
+  });
+}
 
 // IngredientsMetadata object
 var IngredientsMetadata = function(jsonInput) {
@@ -92,18 +104,7 @@ var Recipe = function(recipe) {
   } 
 }
 
-$(document).ready(function() {
-  
-  $.getJSON("../static_json/ingredient_metadata.json", function(inputIngredients) {
-    ingredientMetadata = new IngredientsMetadata(inputIngredients);
-    recipeMenu.renderTable();
-  });
+// Not sure if this should really go here???
 
-  // TODO: Choose the recipe dynamically
-  $.getJSON("../static_json/recipe.json", function(inputRecipe) {
-    $("#recipeName").text(inputRecipe.name);
-    recipeMenu.recipe = new Recipe(inputRecipe);
-    recipeMenu.renderTable();
-  });
-
+return RecipeMenu;
 });
