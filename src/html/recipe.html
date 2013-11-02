@@ -11,7 +11,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
   <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <script data-main="../scripts/main.js" src="../scripts/require.js"></script>
+  <script data-main="../scripts/main.js?bust=2" src="../scripts/require.js"></script>
   <script type="text/javascript" src="../scripts/base_script.js"></script>
 </head>
 
@@ -21,6 +21,7 @@
     <h2 id="recipeName"></h2>
     <table class="table table-bordered" id="recipeBody"></table>
     <div class="dropdown pull-right">
+      <button type="button" class="btn btn-primary" id="addRow" onclick="recipeMenu.addRow()">Add Ingredient</button>
       <button type="button" class="btn btn-primary" id="editButton" onclick="recipeMenu.toggleEditMode()">Edit</button>
       <button type="button" id="drop" role="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Actions<b class="caret"></b></button>
        <ul class="dropdown-menu" role="menu" aria-labelledby="drop">

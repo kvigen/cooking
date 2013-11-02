@@ -6,7 +6,7 @@ TODOs:
 
 Engineering TODO list:
 - Add script to parse the recipe information (python for now)
-- Add ability to add and remove rows from the recipe
+- Add ability to cancel out of edit mode
 - Validation on the fields in the recipe
 - Integrate the recipes list and single recipe page
 - Provide way to really save recipes
