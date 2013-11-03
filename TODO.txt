@@ -2,10 +2,7 @@ TODOs:
 
 - Create an icon for the site
 
-
-
 Engineering TODO list:
-- Add script to parse the recipe information (python for now)
 - Add ability to cancel out of edit mode
 - Validation on the fields in the recipe
 - Integrate the recipes list and single recipe page

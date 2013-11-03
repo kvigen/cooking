@@ -17,3 +17,7 @@ Setup:
 Deploying (for now really simple, but we will improve it):
   - cp src/resources/urls.py target/mysite/mysite/
   - Edit this file with the current paths
+
+Building the ingredient list:
+- To generate the JSON object from the original CSV, run the /python script
+on /resources/ingredients.csv

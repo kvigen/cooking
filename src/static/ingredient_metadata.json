@@ -1,18 +1,440 @@
 {
-  "ingredients": [
-    {
-      "name": "flour"
-    },
-    {
-      "name": "sugar"
-    }
-  ],
-  "units": [
-    {
-      "name": "cups"
-    },
-    {
-      "name": "grams"
-    }
-  ]
+    "ingredients": [
+        {
+            "name": "Beer",
+            "type": "Liquids"
+        },
+        {
+            "name": "Almond meal",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Butter (salted)",
+            "type": "Fats"
+        },
+        {
+            "name": "Brown sugar",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Allspice",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Cottage cheese",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Nuts",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "Brandy",
+            "type": "Liquids"
+        },
+        {
+            "name": "Dutch-processed cocoa",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Butter (unsalted)",
+            "type": "Fats"
+        },
+        {
+            "name": "Corn syrup",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Arrowroot starch",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Creme fraiche",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Cheese",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "Buttermilk",
+            "type": "Liquids"
+        },
+        {
+            "name": "Natural cocoa",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Lard",
+            "type": "Fats"
+        },
+        {
+            "name": "Honey",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Baking powder, double acting",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Farmer's cheese",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Dried fruit",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "Cream (half and half)",
+            "type": "Liquids"
+        },
+        {
+            "name": "Baking mix (e.g. Bisquick)",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Margarine",
+            "type": "Fats"
+        },
+        {
+            "name": "Molasses",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Baking powder, single acting",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Mayonnaise",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Semisweet chocolate chips",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "emulsifier\n",
+            "type": "\n"
+        },
+        {
+            "name": "Cream (heavy)",
+            "type": "Liquids"
+        },
+        {
+            "name": "Wheat flour, bread",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Shortening",
+            "type": "Fats"
+        },
+        {
+            "name": "Sweetened condensed milk",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Baking soda",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Ricotta",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Chia seeds",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "binding\n",
+            "type": "\n"
+        },
+        {
+            "name": "Cream (light)",
+            "type": "Liquids"
+        },
+        {
+            "name": "Wheat flour, cake",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Vegetable oil",
+            "type": "Fats"
+        },
+        {
+            "name": "White sugar",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Cream of tartar",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Sour cream",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Shredded coconut, sweetened",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "thickener\n",
+            "type": "\n"
+        },
+        {
+            "name": "Evaporated milk",
+            "type": "Liquids"
+        },
+        {
+            "name": "Wheat flour, self-rising",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Coconut oil",
+            "type": "Fats"
+        },
+        {
+            "name": "Powdered sugar",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Gelatin",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Sweetened condensed milk",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Shredded coconut, unsweetened",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "bulking agent\n",
+            "type": "\n"
+        },
+        {
+            "name": "Lemon juice",
+            "type": "Liquids"
+        },
+        {
+            "name": "Whole wheat flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Bacon drippings",
+            "type": "Fats"
+        },
+        {
+            "name": "Stevia, liquid",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Lemon zest",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Yogurt",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Herbs",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "tenderizer\n",
+            "type": "\n"
+        },
+        {
+            "name": "Lime juice",
+            "type": "Liquids"
+        },
+        {
+            "name": "Rolled oats",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Stevia, granulated",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Lime zest",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "banana",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Candy",
+            "type": "Mix-ins"
+        },
+        {
+            "name": "Milk--whole",
+            "type": "Liquids"
+        },
+        {
+            "name": "Instant oats",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Splenda",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Mace",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "applesauce",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Orange juice",
+            "type": "Liquids"
+        },
+        {
+            "name": "Oat flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Cane syrup",
+            "type": "Sweeteners"
+        },
+        {
+            "name": "Parsley",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "fruit puree",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Vinegar",
+            "type": "Liquids"
+        },
+        {
+            "name": "Rye flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Saffron",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "bean puree",
+            "type": "Viscous liquids"
+        },
+        {
+            "name": "Wine",
+            "type": "Liquids"
+        },
+        {
+            "name": "Spelt flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Active dry yeast",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Buckwheat flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Citric acid",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Brown rice flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Cinnamon",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Flaxseed meal",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Nutmeg",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Cornmeal",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Clove",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Corn flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Guar gum",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Masa harina",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Potato starch",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Oat bran",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Xantham gum",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Wheat bran",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Rapid-rise/bread machine yeast",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Coconut flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Wheat gluten",
+            "type": "Small volume dry"
+        },
+        {
+            "name": "Quinoa flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Quinoa",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Teff flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Pastry flour",
+            "type": "Bulk dry"
+        },
+        {
+            "name": "Whole whear pastry flour",
+            "type": "Bulk dry"
+        }
+    ],
+    "units": [
+        {
+            "name": "Cups"
+        },
+        {
+            "name": "Grams"
+        }
+    ]
 }
