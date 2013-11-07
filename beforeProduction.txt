@@ -1,0 +1,4 @@
+Here's a list of the things I'm going to need to do before the site is "production" ready:
+
+- Move over more static file serving to something like Apache
+- Re-enable "django.middleware.csrf.CsrfViewMiddleware" in mysite/settings.py.

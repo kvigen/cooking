@@ -1,5 +1,7 @@
 from django.conf.urls import patterns, include, url
 
+import recipe
+
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
@@ -16,13 +18,5 @@ urlpatterns = patterns('',
 # For some reason /static doesn't seem to work...
 (r'^static_json/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': '/home/kyle/myCode/cooking/src/static'}),
-    # Examples:
-    # url(r'^$', 'mysite.views.home', name='home'),
-    # url(r'^mysite/', include('mysite.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+url(r'recipe/(\w+)$', recipe.recipe_crud, name='recipe_crud')
 )
