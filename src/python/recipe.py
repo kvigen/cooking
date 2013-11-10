@@ -1,13 +1,13 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
 import os
+import recipes
 
 # TODO: Put the data in a db... or use Amazon... at least add security
 # to check that the user has permission
 # TODO: Put error handling in...
 
 # TODO: Make this configurable
-recipe_directory = "recipes/"
 
 # See the tutorial pages for more details
 # https://docs.djangoproject.com/en/1.5/intro/tutorial04/
@@ -22,8 +22,14 @@ def recipe_crud(request, recipe_id):
   else:
     return _save_recipe(request, recipe_id)
 
-# Save a recipe. Note that this will overwrite the recipe if it already exists
+# Save a recipe. Note that this will overwrite the pre-existing recipe
 def _save_recipe(request, recipe_id):
+  recipe_name = request.POST['name']
+  recipe_map = recipes.get_recipe_map()
+  recipe = { 'name': recipe_name, 'id': int(recipe_id)}
+  recipe_map[recipe_id] = recipe
+  recipes.save_recipe_map(recipe_map)
+
   recipe_file = _get_recipe_filename(recipe_id)
   with open(recipe_file, "w+") as myfile:
     myfile.write(request.POST['recipe'])
@@ -32,12 +38,15 @@ def _save_recipe(request, recipe_id):
 def _get_recipe(request, recipe_id):
   recipe_file = _get_recipe_filename(recipe_id)
   with open(recipe_file, "r") as myfile:
-    return HttpResponse(myfile.readline())
+    return HttpResponse(myfile.read())
 
 def _delete_recipe(request, recipe_id):
+   recipe_map = recipes.get_recipe_map()
+   del recipe_map[recipe_id]
+   recipes.save_recipe_map(recipe_map)
    filename = _get_recipe_filename(recipe_id)
    os.remove(filename)
    return HttpResponse("Success!")
 
 def _get_recipe_filename(recipe_id):
-  return recipe_directory + "recipe" + recipe_id
+  return recipes.RECIPES_DIRECTORY + "recipe" + recipe_id + ".json"
