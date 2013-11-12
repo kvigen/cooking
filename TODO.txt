@@ -3,6 +3,12 @@ TODOs:
 - Create an icon for the site
 
 Engineering TODO list:
+- Finish the new recipe metadata
+  - Need to set the recipe subclass dropdown based on the recipe type selected
+  - Play around with the layout to see if I can make it bigger
+  - Make sure that all the fields we added (type, subclass, baking time, etc...)
+    are in the datamodel. All of those need to be modeled a little more carefully,
+    but I'll just start with simple numbers.
 - Add ability to cancel out of edit mode
 - Validation on the fields in the recipe
 - Integrate the recipes list and single recipe page

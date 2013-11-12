@@ -8,6 +8,7 @@ var RecipeMenu = function() {
   var that = this; 
   that.recipe = undefined;
   that.editMode = false;
+  that.recipeTypes = undefined;
  
   that.toggleEditMode = function() {
     updateRecipe();
@@ -75,6 +76,15 @@ var RecipeMenu = function() {
       $("<th></th>").appendTo(row);
     }
 
+    if (that.recipeTypes) {
+      _.each(that.recipeTypes, function(recipeType) {
+         $("<option>" + recipeType.name + "</option>").appendTo("#recipeType");
+      });
+      // TODO: Change this to set based on the recipeType. Basically have to add a
+      // handler on the recipeType select picker
+      $("#recipeSubclass").prop("disabled", true);
+    }
+
     var i = 0;
     _.each(that.recipe.getIngredients(), function(ingredient) {
       var row = $("<tr>A</tr>").appendTo("#recipeBody");
@@ -122,8 +132,14 @@ var RecipeMenu = function() {
 
     // TODO: Choose the recipe dynamically
     $.getJSON("../static_json/recipe.json", function(inputRecipe) {
+      // TODO: Should this be moved to the renderTable function???
       $("#recipeName").text(inputRecipe.name);
       that.recipe = new Recipe(inputRecipe);
+      renderTable();
+    });
+
+    $.getJSON("../static_json/recipe_types.json", function(recipeTypes) {
+      that.recipeTypes = recipeTypes;
       renderTable();
     });
   });

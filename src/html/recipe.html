@@ -19,7 +19,33 @@
   <div id="menu"></div>
   <div class="text-center">
     <h2 id="recipeName"></h2>
+    <div class="form-inline text-left">
+      <div class="form-group">
+        <h5>Recipe Type</h5>
+        <select id="recipeType" class="selectpicker">
+        </select>
+      </div>
+      <div class="form-group span6">
+        <h5>Recipe Subclass</h5>
+        <select id="recipeSubclass" class="selectpicker">
+        </select>
+      </div>
+    </div>
     <table class="table table-bordered" id="recipeBody"></table>
+    <div class="form-inline text-left">
+      <div class="form-group">
+        <h5>Pan Size</h5>
+        <input id="panSize" type="text"/>
+      </div>
+      <div class="form-group">
+        <h5>Baking Time</h5>
+        <input id="bakingTime" type="text"/>
+      </div>
+      <div class="form-group">
+        <h5>Baking Temperature</h5>
+        <input id="bakingTemp" type="text"/>
+      </div>
+    </div>
     <div class="dropdown pull-right">
       <button type="button" class="btn btn-primary" id="addRow" onclick="recipeMenu.addRow()">Add Ingredient</button>
       <button type="button" class="btn btn-primary" id="editButton" onclick="recipeMenu.toggleEditMode()">Edit</button>

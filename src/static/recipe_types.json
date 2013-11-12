@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Muffins",
+    "subtypes": ["Muffin method", "Creaming"]
+  },
+  {
+    "name": "Cakes",
+    "subtypes": ["Creaming", "Reverse Creaming", "Separated Egg Method"]
+  },
+  {
+    "name": "Biscuits",
+    "subtypes": ["Rolled", "Drop"]
+  },
+  {
+    "name": "Pancakes",
+    "subtypes": []
+  },
+  {
+    "name": "Waffles",
+    "subtypes": []
+  }
+]
