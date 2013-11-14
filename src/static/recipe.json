@@ -1,5 +1,7 @@
 {
   "name": "Sample Recipe",
+  "type": "Muffins",
+  "subclass": "Muffin method",
   "ingredients": [
     {
       "name": "flour",
@@ -11,6 +13,9 @@
       "quantity": 2,
       "units": "grams"
     }
-  ]
+  ],
+  "panSize": "8x8",
+  "bakingTime": 30,
+  "bakingTemperature": 375
 }
  

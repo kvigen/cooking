@@ -13,10 +13,10 @@
   },
   {
     "name": "Pancakes",
-    "subtypes": []
+    "subtypes": ["None"]
   },
   {
     "name": "Waffles",
-    "subtypes": []
+    "subtypes": ["None"]
   }
 ]

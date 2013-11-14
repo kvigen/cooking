@@ -39,6 +39,14 @@ var RecipeMenu = function() {
     renderTable();
   }
 
+  that.triggerRefresh = function() {
+    if (!that.recipe) {
+      return;
+    }
+    updateRecipe();
+    renderTable();
+  }
+
   // This funciton updates the recipe object based on what the user has entered
   var updateRecipe = function() {
     var ingredients = []
@@ -58,14 +66,44 @@ var RecipeMenu = function() {
       }
       ingredients.push(ingredient);
     });
-    that.recipe.setIngredients(ingredients);
+    that.recipe.ingredients = ingredients;
+    that.recipe.type = $("#recipeType").val();
+    that.recipe.subclass = $("#recipeSubclass").val();
+    that.recipe.panSize = $("#panSize").val();
+    that.recipe.bakingTime = $("#bakingTime").val();
+    that.recipe.bakingTemperature = $("#bakingTemperature").val();
   }      
 
   var renderTable = function() {
     if (!that.recipe || !ingredientMetadata) {
       return;
     }
-    $("#addRow").prop("disabled", !that.editMode);
+ 
+    // Flip the edit mode flag 
+    $(".canDisable").prop("disabled", !that.editMode);
+    
+    if (that.recipeTypes) {
+      if ($("#recipeType").children("option").length === 0) {
+        _.each(that.recipeTypes, function(recipeType) {
+           $("<option>" + recipeType.name + "</option>").appendTo("#recipeType");
+        });
+      }
+      $("#recipeSubclass").empty();
+      var subclasses = $.grep(that.recipeTypes, function(e) { 
+          return e.name === that.recipe.type;
+      });
+      _.each(subclasses[0].subtypes, function(subtype) { 
+         $("<option>" + subtype + "</option>").appendTo("#recipeSubclass");
+      });
+    }
+
+    // Set all the recipe metadata from the recipe
+    $("#recipeType").change(that.recipe.type);
+    $("#recipeSubclass").change(that.recipe.subclass);
+    $("#panSize").val(that.recipe.panSize);
+    $("#bakingTime").val(that.recipe.bakingTime);
+    $("#bakingTemperature").val(that.recipe.bakingTemperature);
+
     var recipeBody = $("#recipeBody");
     recipeBody.empty();
     var row = $("<tr>A</tr>").appendTo(recipeBody);
@@ -76,17 +114,8 @@ var RecipeMenu = function() {
       $("<th></th>").appendTo(row);
     }
 
-    if (that.recipeTypes) {
-      _.each(that.recipeTypes, function(recipeType) {
-         $("<option>" + recipeType.name + "</option>").appendTo("#recipeType");
-      });
-      // TODO: Change this to set based on the recipeType. Basically have to add a
-      // handler on the recipeType select picker
-      $("#recipeSubclass").prop("disabled", true);
-    }
-
     var i = 0;
-    _.each(that.recipe.getIngredients(), function(ingredient) {
+    _.each(that.recipe.ingredients, function(ingredient) {
       var row = $("<tr>A</tr>").appendTo("#recipeBody");
       addElem(ingredient.quantity, [], row);
       addElem(ingredient.units, ingredientMetadata.getUnitNames(), row);
@@ -163,26 +192,24 @@ var IngredientsMetadata = function(jsonInput) {
 
 // Recipe object
 var Recipe = function(recipe) {
-  this.recipe = recipe;
+  this.ingredients = recipe.ingredients;
+  // TODO: Maybe I should grab these out dynamically??? Is that easy???
+  this.type = recipe.type;
+  this.subclass = recipe.subclass;
+  this.panSize = recipe.panSize;
+  this.bakingTime = recipe.bakingTime;
+  this.bakingTemperature = recipe.bakingTemperature;
 
-  this.getIngredients = function() {
-    return this.recipe.ingredients;
-  }
-
-  this.setIngredients = function(ingredients) {
-    this.recipe.ingredients = ingredients;
-  }
- 
   this.addEmptyIngredient = function() {
-    this.recipe.ingredients.push({"quantity":"", "units":"", "name":""});
+    this.ingredients.push({"quantity":"", "units":"", "name":""});
   }
 
   this.remove = function(index) {
-    this.recipe.ingredients.remove(index);
+    this.ingredients.remove(index);
   }
 
   this.doubleIngredients = function() {
-    _.each(this.recipe.ingredients, function(ingredient) {
+    _.each(this.ingredients, function(ingredient) {
       ingredient.quantity *= 2;
     });
   } 
