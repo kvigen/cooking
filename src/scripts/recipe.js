@@ -7,6 +7,7 @@ var RecipeMenu = function() {
 
   var that = this; 
   that.recipe = undefined;
+  that.optimizations = undefined;
   that.editMode = false;
   that.recipeTypes = undefined;
  
@@ -22,10 +23,13 @@ var RecipeMenu = function() {
       return;
     }
     updateRecipe();
-    // TODO: Should really build the recipe actions dynamically at some point
-    if (action === "double") {
-      that.recipe.doubleIngredients();
-    }
+    $.post("../recipes/optimization",
+          { optimization: action, recipe: JSON.stringify(that.recipe) },
+          function(recipe) {
+              that.recipe = new Recipe(recipe)
+              renderTable();
+          },
+          "json");
     that.editMode = true;
     renderTable();
   }
@@ -128,6 +132,18 @@ var RecipeMenu = function() {
     } else {
       $("#editButton").text("Edit");
     }
+    $("#optimizations").empty();
+    // Probably should only make this applicable in edit mode... not really sure
+    _.each(that.optimizations, function(optimization) {
+      list_item = $("<li></li");
+      list_item.attr("role", "presentation");
+      link = $("<a></a>");
+      link.attr("role", "menuItem");
+      link.attr("onclick", "recipeMenu.action('" + optimization + "');");
+      link.text(optimization)
+      list_item.append(link);
+      $("#optimizations").append(list_item)
+    });
   }
 
   var addElem = function(defaultVal, typeaheadValues, row) {
@@ -164,7 +180,15 @@ var RecipeMenu = function() {
       // TODO: Should this be moved to the renderTable function???
       $("#recipeName").text(inputRecipe.name);
       that.recipe = new Recipe(inputRecipe);
-      renderTable();
+      // TODO: We need to be smarter about re-calling this periodically to
+      // make sure the optimizations still apply
+      $.post("../recipes/optimizations",
+          { recipe: JSON.stringify(that.recipe) },
+          function(optimizations) {
+              that.optimizations = optimizations;
+              renderTable(); 
+          },
+          "json");
     });
 
     $.getJSON("../static_json/recipe_types.json", function(recipeTypes) {
@@ -188,6 +212,7 @@ var IngredientsMetadata = function(jsonInput) {
       return ingredient.name;
     });
   }
+
 } 
 
 // Recipe object
@@ -207,12 +232,6 @@ var Recipe = function(recipe) {
   this.remove = function(index) {
     this.ingredients.remove(index);
   }
-
-  this.doubleIngredients = function() {
-    _.each(this.ingredients, function(ingredient) {
-      ingredient.quantity *= 2;
-    });
-  } 
 }
 
 // Not sure if this should really go here???

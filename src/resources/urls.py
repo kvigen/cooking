@@ -20,5 +20,7 @@ urlpatterns = patterns('',
 (r'^static_json/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': '/home/kyle/myCode/cooking/src/static'}),
 url(r'recipes/recipe/(\w+)$', recipe.recipe_crud, name='recipe_crud'),
-url(r'recipes/$', recipes.get_recipes, name='get_recipes')
+url(r'recipes/$', recipes.get_recipes, name='get_recipes'),
+url(r'recipes/optimizations$', recipes.get_optimizations, name='get_optimizations'),
+url(r'recipes/optimization$', recipes.apply_optimization, name="apply_optimization"),
 )
