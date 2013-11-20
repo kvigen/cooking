@@ -102,8 +102,8 @@ var RecipeMenu = function() {
     }
 
     // Set all the recipe metadata from the recipe
-    $("#recipeType").change(that.recipe.type);
-    $("#recipeSubclass").change(that.recipe.subclass);
+    $("#recipeType").val(that.recipe.type);
+    $("#recipeSubclass").val(that.recipe.subclass);
     $("#panSize").val(that.recipe.panSize);
     $("#bakingTime").val(that.recipe.bakingTime);
     $("#bakingTemperature").val(that.recipe.bakingTemperature);
