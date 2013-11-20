@@ -10,7 +10,6 @@ class Double(object):
     return True
 
   def apply_to(self, recipe):
-    print("Recipe: " + str(recipe))
     for ingredient in recipe["ingredients"]:
       ingredient["quantity"] = int(ingredient["quantity"]) * 2
     return recipe
