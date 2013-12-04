@@ -1,26 +1,35 @@
 import json
 
 with open("../resources/ingredients.csv") as f:
-  i = 0
+  firstLine = True
   ingredients = []
-  typeArray = []
+  fieldArray = []
   for line in f.readlines():
-    if i == 0:
-      for typeVal in line.split("|"):
-        typeArray.append(typeVal)
+    # Remove all the end-lines to start with
+    line = line.replace("\n", "")
+    if firstLine:
+      for field in line.split("|"):
+        fieldArray.append(field)
+      firstLine = False
     else:
       j = 0
+      metadata = {}
       for ingredient in line.split("|"):
-        if not ingredient.strip() is "":
-          metadata = {}
-          metadata['name'] = ingredient
-          if j >= len(typeArray):
-            metadata['type'] = "None"
-          else:
-            metadata['type'] = typeArray[j]
-          ingredients.append(metadata)
+        ingredient = ingredient.replace("\n", "")
+        if ingredient.strip() is "":
+          metadata[fieldArray[j]] = 0
+        elif ingredient.strip() == "--":
+          metadata[fieldArray[j]] = 0
+        else:
+          # Try to treat the string as a number. If that doesn't work then
+          # just leave it as a string. At some point we can be a little
+          # tougher about enforcing reasonable fields
+          try:
+            metadata[fieldArray[j]] = float(ingredient)
+          except ValueError:
+            metadata[fieldArray[j]] = ingredient
         j = j + 1
-    i = i + 1
+      ingredients.append(metadata)
 
 full_metadata = {}
 full_metadata['ingredients'] = ingredients

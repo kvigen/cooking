@@ -209,7 +209,7 @@ var IngredientsMetadata = function(jsonInput) {
   
   this.getIngredientNames = function() {
     return _.map(this.jsonInput.ingredients, function(ingredient) { 
-      return ingredient.name;
+      return ingredient.Description;
     });
   }
 

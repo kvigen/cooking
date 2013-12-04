@@ -1,28 +1,232 @@
-Liquids|Bulk dry|Fats|Sweeteners|Small volume dry|Viscous liquids|Mix-ins||
-Beer|Almond meal|Butter (salted)|Brown sugar|Allspice|Cottage cheese|Nuts||
-Brandy|Dutch-processed cocoa|Butter (unsalted)|Corn syrup|Arrowroot starch|Creme fraiche|Cheese||
-Buttermilk|Natural cocoa|Lard|Honey|Baking powder, double acting|Farmer's cheese|Dried fruit||
-Cream (half and half)|Baking mix (e.g. Bisquick)|Margarine|Molasses|Baking powder, single acting|Mayonnaise|Semisweet chocolate chips||emulsifier
-Cream (heavy)|Wheat flour, bread|Shortening|Sweetened condensed milk|Baking soda|Ricotta|Chia seeds||binding
-Cream (light)|Wheat flour, cake|Vegetable oil|White sugar|Cream of tartar|Sour cream|Shredded coconut, sweetened||thickener
-Evaporated milk|Wheat flour, self-rising|Coconut oil|Powdered sugar|Gelatin|Sweetened condensed milk|Shredded coconut, unsweetened||bulking agent
-Lemon juice|Whole wheat flour|Bacon drippings|Stevia, liquid|Lemon zest|Yogurt|Herbs||tenderizer
-Lime juice|Rolled oats||Stevia, granulated|Lime zest|banana|Candy||
-Milk--whole|Instant oats||Splenda|Mace|applesauce|||
-Orange juice|Oat flour||Cane syrup|Parsley|fruit puree|||
-Vinegar|Rye flour|||Saffron|bean puree|||
-Wine|Spelt flour|||Active dry yeast||||
-|Buckwheat flour|||Citric acid||||
-|Brown rice flour|||Cinnamon||||
-|Flaxseed meal|||Nutmeg||||
-|Cornmeal|||Clove||||
-|Corn flour|||Guar gum||||
-|Masa harina|||Potato starch||||
-|Oat bran|||Xantham gum||||
-|Wheat bran|||Rapid-rise/bread machine yeast||||
-|Coconut flour|||Wheat gluten||||
-|Quinoa flour|||||||
-|Quinoa|||||||
-|Teff flour|||||||
-|Pastry flour|||||||
-|Whole whear pastry flour|||||||
+Description|Ingredient Type|_NDB__NO_|Weight|Measure|Volume|Density|Energy|Protein|Fat|Carbohydrates|Fiber|Sugars|Calcium|Iron|Sodium|Fatty acids|Cholesterol|Vitamin C
+Active dry yeast|small volume dry||10|1.0 tablespoon|14.79|0.676132522|20|0|0.5|5|2|0||4%|0|0|0|30%
+Allspice|small volume dry||2|1.0 teaspoon|4.92892|0.4057684036|5|0.1|0.2|1.4|0.4|0|1%|1%|1|0|0|
+Almond meal|bulk dry||28|0.25 cup|59.147|0.473396791|160|6|14|6|3|1|6%|6%||||
+Almond milk, unsweetened|liquids||240|1.0 cup|236.588|1.0144216951|40|1|3.5|2|1|0|30%|4%|180|0|0|
+Apples, raw slices, peeled|fruit|"09004"|110|1.0 cup|236.588|0.4649432769|53|0.3|0.14|14.04|1.4|11.11|6|0.08|0|0.023|0|4.4
+Applesauce, sweetened, without salt|viscous "liquid"|"09020"|246|1.0 cup|236.588|1.0397822375|167|0.39|0.42|43.03|3|36.09|7|0.3|5|0.074|0|4.2
+Applesauce, unsweetened|viscous "liquids"||118|0.5 cup|118.294|0.9975146668|50|0|0|13|2|10|||15|0|0|
+Apricots, canned halved, with syrup|fruit|"09027"|258|1.0 cup|236.588|1.0905033222|214|1.37|0.21|55.39|4.1|51.26|23|0.77|10|0.013|0|8
+Apricots, canned halves, drained|fruit|"09357"|219|1.0 cup|236.588|0.9256597968|182|1.4|0.24|46.67|5.9|40.84|22|0.66|9|0.015|0|6.8
+Apricots, dehydrated, uncooked|mix-ins|"09030"|119|1.0 cup|236.588|0.5029840905|381|5.83|0.74|98.64|--|--|73|7.51|15|0.051|0|11.3
+Arrowroot starch|small volume dry||33|0.25 cup|59.147|0.5579319323|110|0|0|28|1|0|||0|0|0|
+Bacon drippings|fats||28|1 oz|||254|0|28|0|0|0|||43|11|27|
+Baking mix (e.g. Bisquick)|bulk dry||40|0.33 cup||0.507|160|3|5|26|1|1|4%|6%|490|1.5||
+Baking powder, double acting|small volume dry||1|1.0 teaspoon|4.92892|0.2028842018|8|0|0|4|0|0|16%||320|||
+Baking powder, single acting|small volume dry||1|1.0 teaspoon|4.92892|0.2028842018|8|0|0|4|0|0|16%||320|||
+Baking soda|small volume dry||1|0.25 teaspoon|1.23223|0.8115368073|0|0|0|0|0|0|||270|0|0|
+banana|viscous "liquids"||118|0.5 cup|118.294|0.9975146668|118|1.3|0.4|27|3.1|14.4|1%|2%|1|0.1|0|17%
+Barley flour|bulk dry|"20130"|148|1.0 cup|236.588|0.6255600453|511|15.54|2.37|110.29|14.9|1.18|47|3.97|6|0.496|--|0
+bean puree|viscous "liquids"|||||||||||||||||
+Beans, black, cooked no salt||"16017"|185|1.0 cup|236.588|0.7819500566|240|15.13|0.65|45.05|15.4|0.59|102|5.27|6|0.165|--|0
+Beer|liquid||356|12 oz||1|153|1.6|0|12.6|0|0|1%|||||
+Blackberries|fruit|"09048"|151|1.0 cup|236.588|0.6382403165|97|1.78|0.65|23.66|7.6|16.11|44|1.21|2|0.023|0|4.7
+Blackberry juice|liquid|"09043"|250|1.0 cup|236.588|1.0566892657|95|0.75|1.5|19.5|0.2|19.25|30|1.2|2|0.045|0|28.2
+Blueberries|fruit|"09055"|230|1.0 cup|236.588|0.9721541245|196|0.92|0.3|50.48|5.1|45.36|14|0.9|2|0.025|0|2.3
+Boysenberries|fruit|"09057"|132|1.0 cup|236.588|0.5579319323|66|1.45|0.34|16.09|7|9.09|36|1.12|1|0.012|0|4.1
+Breadfruit, raw|fruit|"09059"|220|1.0 cup|236.588|0.9298865538|227|2.35|0.51|59.66|10.8|24.2|37|1.19|4|0.106|0|63.8
+Brown rice flour|bulk dry||30|0.25 cup|59.147|0.5072108475|110|3|1|23|1|0||2%||||
+Brown sugar (light or dark)|sweeteners||4|1.0 teaspoon|4.92892|0.8115368073|15|0|0|4|0|4|||0|0|0|
+Butter (salted)|fats||114|0.5 cup|118.294|0.9637006103|817|0|93.07|0|0|0|||658|59.02|250|
+Butter (unsalted)|fats||114|0.5 cup|118.294|0.9637006103|817|0|93.07|0|0|0|||23|59.02|250|
+Candy|mix-ins|||||||||||||||||
+Cane syrup|sweeteners||21|1.0 tablespoon|14.79|1.4198782961|60|0|0.5|14|0|15|||15|0|0|
+Carambola, (starfruit), cubed|fruit|"09060"|132|1.0 cup|236.588|0.5579319323|41|1.37|0.44|8.88|3.7|5.25|4|0.11|3|0.025|0|45.4
+Cheese spread, pasteurized process, American, cubed|mix-ins|"01048"|140|1.0 cup|236.588|0.5917459888|406|22.97|29.72|12.22|0|10.25|787|0.46|2275|18.658|77|0
+Cheese, blue|mix-ins|"01004"|28.35|1.0 oz|49.07|0.577746077|100|6.07|8.15|0.66|0|0.14|150|0.09|325|5.293|21|0
+Cheese, camembert|mix-ins|"01007"|28.35|1.0 oz||1.04|85|5.61|6.88|0.13|0|--|110|0.09|239|4.326|20|0
+Cheese, cheddar, cubed|mix-ins|"01009"|132|1.0 cup|236.588|0.5579319323|532|32.87|43.74|1.69|0|0.69|952|0.9|820|27.841|139|0
+Cheese, cottage, large curd|viscous "liquid"|"01012"|113|4.0 oz||0.8876|111|12.57|4.86|3.82|0|3.02|94|0.08|411|1.941|19|0
+Cheese, cottage, lowfat, 1% milkfat|viscous "liquid"|"01016"|113|4.0 oz||0.955|81|14|1.15|3.07|0|--|69|0.16|459|0.729|5|0
+Cheese, cottage, lowfat, 2% milkfat|viscous "liquid"|"01015"|113|4.0 oz||0.955|97|13.37|2.77|4.14|0|4.15|103|0.17|373|1.106|11|0
+Cheese, cottage, nonfat|viscous "liquid"|"01014"|145|1.0 cup|236.588|0.6128797741|104|14.99|0.42|9.66|0|2.68|125|0.22|539|0.245|10|0
+Cheese, cottage, small curd|viscous "liquid"|"01012"|113|4.0 oz||0.951|111|12.57|4.86|3.82|0|3.02|94|0.08|411|1.941|19|0
+Cheese, cream|viscous "liquid"|"01017"|14.5|1.0 tbsp|14.79|0.9803921569|50|0.86|4.96|0.59|0|0.47|14|0.06|53|2.797|16|0
+Cheese, feta crumbled|mix-ins|"01019"|150|1.0 cup|236.588|0.6340135594|396|21.32|31.92|6.14|0|--|740|0.98|1376|22.419|134|0
+Cheese, mozzarella, part skim milk, low moisture, diced|mix-ins|"01029"|132|1.0 cup|236.588|0.5579319323|399|34.27|26.44|5.06|0|0.79|965|0.33|861|14.358|71|0
+Cheese, mozzarella, whole milk, shredded|mix-ins|"01026"|112|1.0 cup|236.588|0.473396791|336|24.83|25.03|2.45|0|1.15|566|0.49|702|14.73|88|0
+Cheese, muenster, diced|mix-ins|"01030"|132|1.0 cup|236.588|0.5579319323|486|30.9|39.65|1.48|0|--|946|0.54|829|25.229|127|0
+Cheese, neufchatel|viscous "liquid"|"01031"|28.35|1.0 oz||1.01|72|2.59|6.46|1.02|0|0.9|33|0.04|95|3.626|21|0
+Cheese, parmesan, grated|mix-ins|"01032"|100|1.0 cup|236.588|0.4226757063|431|38.46|28.61|4.06|0|0.9|1109|0.9|1529|17.301|88|0
+Cheese, provolone, diced|mix-ins|"01035"|132|1.0 cup|236.588|0.5579319323|463|33.77|35.14|2.82|0|0.74|998|0.69|1156|22.543|91|0
+Cheese, ricotta, part skim milk|viscous "liquid"|"01037"|124|0.5 cup|118.294|1.0482357516|171|14.12|9.81|6.37|0|0.38|337|0.55|123|6.109|38|0
+Cheese, ricotta, whole milk|viscous "liquid"|"01036"|124|0.5 cup|118.294|1.0482357516|216|13.96|16.1|3.77|0|0.33|257|0.47|104|10.286|63|0
+Cheese, swiss, diced|mix-ins|"01040"|132|1.0 cup|236.588|0.5579319323|502|35.55|36.7|7.1|0|1.74|1044|0.26|92|23.468|121|0
+Cherries, sour, canned with syrup|fruit|"09065"|252|1.0 cup|236.588|1.0651427799|189|1.86|0.25|48.64|2|--|25|3.33|18|0.055|0|5
+Cherries, sour, red, frozen|fruit|"09068"|155|1.0 cup|236.588|0.6551473448|71|1.43|0.68|17.08|2.5|13.98|20|0.82|2|0.155|0|2.6
+Cherries, sweet, canned with syrup, pitted|fruit|"09071"|248|1.0 cup|236.588|1.0482357516|114|1.91|0.32|29.16|3.7|25.44|27|0.89|2|0.069|0|5.5
+Cherries, sweet, raw|fruit|"09070"|138|1.0 cup|236.588|0.5832924747|87|1.46|0.28|22.09|2.9|17.69|18|0.5|0|0.052|0|9.7
+Chia seeds|mix-ins||15|1.0 tablespoon|14.79|1.014198783|60|3|4.5|5|5|0|6%|4%|0|0.5|0|
+Citric acid|small volume dry||4|1.0 teaspoon|4.92892|0.8115368073|0|0|0|0|0|0|||0|0|0|
+Coconut flour|bulk dry||14|2.0 tablespoon|29.58|0.4732927654|60|2|2|8|5|1||10%|30|2||
+Coconut oil|fats||15|1.0 tablespoon|14.79|1.014198783|120|0|14|0|0|0|||0|12|0|
+Corn flour|bulk dry||29|0.25 cup|59.147|0.4903038193|110|2|1|22|4|0||3%||||
+Corn flour, masa, enriched, yellow|bulk dry|"20317"|114|1.0 cup|236.588|0.4818503052|416|10.58|4.4|86.97|7.3|--|155|8.54|6|0.606|--|0
+Corn syrup|sweeteners||40|2.0 tablespoon|30|1.3333333333|120|0|0|30|0|10|||30|0|0|
+Corn, white|fruit|"20314"|166|1.0 cup|236.588|0.7016416724|606|15.64|7.87|123.27|--|--|12|4.5|58|1.107|--|0
+Cornmeal, self-rising, degermed, enriched, white|bulk dry|"20325"|138|1.0 cup|236.588|0.5832924747|490|11.61|2.37|103.21|9.8|--|483|6.53|1860|0.323|--|0
+Cornmeal, whole grain|bulk dry||30|0.25 cup|59.147|0.5072108475|100|3|1|22|3|0||4%||||
+Cornmeal, whole-grain|bulk dry|"20320"|122|1.0 cup|236.588|0.5156643617|442|9.91|4.38|93.81|8.9|0.78|7|4.21|43|0.616|--|0
+cornstarch|bulk dry||8|1.0 tablespoon|14.79|0.5409060176|30|0|0|7|0|0|||0|0||
+Cranberry sauce, canned, sweetened|viscous "liquid"|"09081"|277|1.0 cup|236.588|1.1708117064|418|0.55|0.42|107.75|2.8|104.98|11|0.61|80|0.036|0|5.5
+Cream of tartar|small volume dry||4|1.0 teaspoon|4.92892|0.8115368073|8|0|0|1.8|0|0|||2|0|0|
+Cream, fluid, light (coffee cream or table cream)|liquid|"01050"|30|1.0 fl oz||1.01|58|0.81|5.79|1.1|0|--|29|0.01|12|3.606|20|0.2
+Cream, half and half|liquid|"01049"|30.2|1.0 fl oz||1.023|39|0.89|3.47|1.3|0|--|32|0.02|12|2.162|11|0.3
+Cream, sour, cultured|viscous "liquid"|"01056"|12|1.0 tbsp||0.97|23|0.25|2.37|0.35|0|--|13|0.02|6|1.381|6|0.1
+Cream, sour, reduced fat, cultured|viscous "liquid"|"01055"|15|1.0 tbsp||1|20|0.44|1.8|0.64|0|0.02|16|0.01|13|1.12|6|0.1
+Currants raw|fruit|"09084"|112|1.0 cup|236.588|0.473396791|63|1.57|0.22|15.46|4.8|8.25|37|1.12|--|0.019|0|45.9
+Currants, zante, dried|mix-ins|"09085"|144|1.0 cup|236.588|0.6086530171|408|5.88|0.39|106.68|9.8|96.88|124|4.69|12|0.04|0|6.8
+Dill weed, fresh|small volume dry|"02045"|1|5.0 sprigs||0.04|0|0.03|0.01|0.07|0|--|2|0.07|1|0.001|0|0.8
+Dried fruit|mix-ins|||||||||||||||||
+Dutch-processed cocoa|bulk dry||5|1.0 tablespoon||0.35|15|0|1|2|1|0||||0.5||
+Egg substitute, powder|bulk dry|"01144"|9.9|0.35 oz||0.95|44|5.49|1.29|2.16|0|--|32|0.31|79|0.373|57|0.1
+Egg, white, raw, fresh|emulsifier|"01124"|33|1.0 large||1.03|17|3.6|0.06|0.24|0|0.23|2|0.03|55|--|--|0
+Egg, whole, raw, fresh|emulsifier|"01123"|50|1.0 large||1.03|72|6.28|4.76|0.36|0|0.18|28|0.88|71|1.563|186|0
+Egg, yolk, raw|emulsifier|"01127"|28.35|1.0 oz||1.03|87|3.93|6.47|3.1|0|2.92|35|1.05|20|2.016|260|0
+Eggnog|liquid|"01057"|254|1.0 cup|236.588|1.073596294|224|11.56|10.64|20.45|0|--|330|0.51|137|6.581|150|3.8
+Figs, 2-1/2" diameter|fruit|"09089"|64|1.0 large||1.29|47|0.48|0.19|12.28|1.9|10.41|22|0.24|1|0.038|0|1.3
+Figs, canned, with liquid|fruit|"09090"|248|1.0 cup|236.588|1.0482357516|131|0.99|0.25|34.7|5.5|29.24|69|0.72|2|0.05|0|2.5
+Flaxseed meal|bulk dry||13|2.0 tablespoon|29.58|0.4394861393|60|3|4.5|4|4|0||22%||0.5||
+Fruit cocktail, canned with extra light syrup|fruit|"09098"|123|0.5 cup|118.294|1.0397822375|55|0.49|0.09|14.3|1.4|--|10|0.37|5|0.012|0|3.7
+Fruit cocktail, canned with heavy syrup|fruit|"09100"|248|1.0 cup|236.588|1.0482357516|181|0.97|0.17|46.9|2.5|44.42|15|0.72|--|0.025|0|4.7
+fruit puree|viscous "liquids"|||||||||||||||||
+Gelatin|small volume dry||8|1.0 tablespoon|14.79|0.5409060176|20|8|0|0|0|0||||||
+Gin, rum, vodka, or whiskey|liquid||42|1.5 oz||0.789|97|0|0|0|0|0||||||
+Granulated sugar|sweeteners||4|1.0 teaspoon|4.92892|0.8115368073|16|0|0|4.2|0|4.2|||0|0|0|
+Grapefruit juice, canned, sweetened|liquid|"09124"|250|1.0 cup|236.588|1.0566892657|115|1.45|0.22|27.82|0.2|27.58|20|0.9|5|0.03|0|67.2
+Grapefruit, sections with juice|fruit|"09112"|230|1.0 cup|236.588|0.9721541245|97|1.77|0.32|24.52|3.7|15.85|51|0.18|0|0.048|0|71.8
+Grapefruit, sections, canned with liquid|fruit|"09120"|249|1.0 cup|236.588|1.0524625087|92|1.74|0.22|22.93|1|21.91|37|0.52|17|0.03|0|84.4
+Grapes, canned with liquids|fruit|"09133"|245|1.0 cup|236.588|1.0355554804|98|1.22|0.27|25.24|1.5|23.76|24|2.4|15|0.086|0|2.4
+Grapes, raw|fruit|"09131"|92|1.0 cup|236.588|0.3888616498|62|0.58|0.32|15.78|0.8|14.95|13|0.27|2|0.105|0|3.7
+Guar gum|small volume dry||7|1.0 tablespoon|14.79|0.4732927654|20|0|0|6|6|0||1%|2|0|0|
+Honey|sweeteners||21|1.0 tablespoon|14.79|1.4198782961|60|0|0|17|0|16|||0|0|0|
+Instant oats|bulk dry||50|0.5 cup|118.294|0.4226757063|197|7.576|3.788|34.848|4.545|0||76%||0.758||
+Kiwifruit, sliced|fruit|"09148"|180|1.0 cup|236.588|0.7608162713|110|2.05|0.94|26.39|5.4|16.18|61|0.56|5|0.052|0|166.9
+Kosher salt|small volume dry||4|1.0 teaspoon|4.92892|0.8115368073|0|0|0|0|0|0|||1120|||
+Lard|fats||13|1.0 tablespoon|14.79|0.8789722786|115|0|12.8|0|0|0||||5||
+Lemon juice|liquid|"09152"|244|1.0 cup|236.588|1.0313287234|54|0.85|0.59|16.84|0.7|6.15|15|0.2|2|0.098|0|94.4
+Lemon zest|small volume dry||2|1.0 teaspoon|4.92892|0.4057684036|1|0|0|0.3|0.2|0.1||||||4%
+Lime juice|liquid|"09160"|242|1.0 cup|236.588|1.0228752092|60|1.02|0.17|20.38|1|4.09|34|0.22|5|0.019|0|72.6
+Lime zest|small volume dry||2|1.0 teaspoon|4.92892|0.4057684036|1|0|0|0.3|0.2|0.1||||||4%
+Litchis, raw|fruit|"09164"|190|1.0 cup|236.588|0.803083842|125|1.58|0.84|31.41|2.5|28.94|10|0.59|2|0.188|0|135.8
+Loganberries, frozen|fruit|"09167"|147|1.0 cup|236.588|0.6213332882|81|2.23|0.46|19.14|7.8|11.32|38|0.94|1|0.016|0|22.5
+Mace|small volume dry||2|1.0 teaspoon|4.92892|0.4057684036|8|0.1|0.6|0.9|0.3|0||1%|1|0.2|0|1%
+Malted barley flour|small volume dry||32|0.25 cup|65.897|0.485606325|105|4|1|20|3|3|1%|5%|3|0|0|
+Mangos, pieces|fruit|"09176"|165|1.0 cup|236.588|0.6974149154|99|1.35|0.63|24.72|2.6|22.54|18|0.26|2|0.152|0|60.1
+Masa harina|bulk dry||30|0.25 cup|59.147|0.5072108475|100|3|1|21|2|0||||||
+Milk, buttermilk, dried|liquid|"01094"|120|1.0 cup|236.588|0.5072108475|464|41.16|6.94|58.8|0|--|1421|0.36|620|4.318|83|6.8
+Milk, canned, evaporated, added vitamin D|liquid|"01096"|31.5|1.0 fl oz||1.07|42|2.15|2.38|3.16|0|--|82|0.06|33|1.446|9|0.6
+Milk, canned, evaporated, nonfat, added vitamins A and D|liquid|"01097"|31.9|1.0 fl oz||1.08|25|2.41|0.06|3.62|0|--|93|0.09|37|0.039|1|0.4
+Milk, canned, sweetened condensed|liquid|"01095"|38.2|1.0 fl oz||1.29|123|3.02|3.32|20.78|0|--|108|0.07|49|2.096|13|1
+Milk, chocolate, fluid, reduced fat|liquid|"01103"|250|1.0 cup|236.588|1.0566892657|190|7.48|4.75|30.32|1.8|23.88|272|0.6|165|2.942|20|0
+Milk, chocolate, whole|liquid|"01102"|250|1.0 cup|236.588|1.0566892657|208|7.92|8.48|25.85|2|23.85|280|0.6|150|5.26|30|2.2
+Milk, lowfat, 1% milkfat|liquid|"01084"|246|1.0 cup|236.588|1.0397822375|118|9.67|2.88|13.58|0|--|349|0.15|143|1.791|10|3
+Milk, nonfat|liquid|"01087"|246|1.0 cup|236.588|1.0397822375|101|9.74|0.62|13.68|0|--|352|0.15|145|0.399|5|2.7
+Milk, nonfat dry|bulk dry|"01091"|120|1.0 cup|236.588|0.5072108475|434|43.39|0.92|62.38|0|--|1508|0.38|642|0.599|24|8.2
+Milk, reduced fat, 2% milkfat|liquid|"01081"|246|1.0 cup|236.588|1.0397822375|138|9.72|4.87|13.51|0|12.94|352|0.15|145|3.031|20|2.7
+Milk, sheep|liquid|"01109"|245|1.0 cup|236.588|1.0355554804|265|14.65|17.15|13.13|0|--|473|0.24|108|11.277|66|10.3
+Milk, whole|liquid|"01078"|244|1.0 cup|236.588|1.0313287234|156|8|8.93|11.35|0|--|290|0.12|120|5.558|34|3.7
+Molasses|sweeteners||20|1.0 tablespoon|14.79|1.3522650439|58|0|0|14.9|0|11.1|||7|0|0|
+MORI-NU, Tofu, silken, firm|viscous "liquid"|"16162"|84|1.0 slice||1.07|52|5.8|2.27|2.02|0.1|1.07|27|0.87|30|0.341|--|0
+Natural cocoa|bulk dry||5|1.0 tablespoon||0.35|12|1.1|0.7|2.9|1.8|0.1|1%|4%|1|0.4||
+Nuts, almond butter, plain, with salt added|mix-ins|"12695"|16|1.0 tbsp|14.79|1.0818120352|98|3.35|8.88|3.01|1.6|1|56|0.56|36|1.048|--|0
+Nuts, chestnuts, european, raw, unpeeled|mix-ins|"12097"|145|1.0 cup|236.588|0.6128797741|309|3.51|3.28|66.03|11.7|--|39|1.46|4|0.616|0|62.4
+Nuts, coconut cream, canned, sweetened|liquid|"12116"|19|1.0 tbsp|14.79|1.2846517918|68|0.22|3.1|10.11|0|9.78|1|0.02|7|2.94|--|0
+Nuts, coconut meat, dried (desiccated), not sweetened|mix-ins|"12108"|28.35|1.0 oz||0.35|187|1.95|18.29|6.7|4.6|2.08|7|0.94|10|16.221|0|0.4
+Nuts, coconut meat, dried (desiccated), sweetened, flaked, packaged|mix-ins|"12109"|85|1.0 cup|236.588|0.3592743503|388|2.66|23.79|44.07|8.4|31.24|9|1.28|242|22.437|--|0
+Nuts, hazelnuts or filberts pieces|mix-ins|"12120"|115|1.0 cup|236.588|0.4860770622|722|17.19|69.86|19.2|11.2|4.99|131|5.4|0|5.134|0|7.2
+Nuts, mixed nuts, oil roasted, with peanuts, lightly salted|mix-ins|"12737"|28.35|1.0 oz||0.588|172|5.68|15.29|5.97|2|1.18|33|0.74|46|2.47|0|0.1
+Nuts, whole almonds, dry roasted, no salt|mix-ins|"12063"|138|1.0 cup|236.588|0.5832924747|825|28.92|72.51|28.99|15|6.71|370|5.15|4|5.647|--|0
+Oat bran|bulk dry||24|0.25 cup|59.147|0.405768678|58|4.075|1.65|15.55|3.625|0.35|1%|7%|1|0.3||
+Oat flour|bulk dry||30|0.25 cup|59.147|0.5072108475|120|4|2|21|3|0|2%|8%||0.5||
+Oat flour, partially debranned|bulk dry|"20132"|104|1.0 cup|236.588|0.4395827345|420|15.25|9.48|68.33|6.8|0.83|57|4.16|20|1.671|--|0
+Oil, canola|fats|"04582"|14|1.0 tbsp|14.79|0.9465855308|124|0|14|0|--|--|0|--|--|1.031|--|0
+Oil, cocoa butter|fats|"04501"|13.6|1.0 tablespoon|14.79|0.9195402299|120|0|13.6|0|--|--|0|--|--|8.119|--|0
+Oil, olive|fats|"04053"|13.5|1.0 tablespoon|14.79|0.9127789047|119|0|13.5|0|--|--|0|0.08|0|1.864|--|0
+Oil, safflower, linoleic, (over 70%)|fats|"04510"|13.6|1.0 tbsp|14.79|0.9195402299|120|0|13.6|0|--|--|0|--|--|0.844|--|0
+Oil, sunflower, high oleic (70% and over)|fats|"04584"|14|1.0 tbsp|14.79|0.9465855308|124|0|14|0|--|--|0|--|--|1.38|--|0
+Olive oil|fats||15|1.0 tablespoon|14.79|1.014198783|120|0|14|0|0|0||||2|0|
+Olives, canned|mix-ins|"09193"|8.4|1.0 tbsp|14.79|0.5679513185|10|0.07|0.9|0.53|0.3|0|7|0.28|62|0.119|0|0.1
+Orange juice, calcium-fortified|liquid|"09211"|249|1.0 cup|236.588|1.0524625087|117|1.69|0.3|28.06|0.7|20.69|349|0.32|5|0.035|0|83.7
+Orange juice, fortified calcium and vitamin D|liquid|"09210"|249|1.0 cup|236.588|1.0524625087|117|1.69|0.3|28.06|0.7|20.69|349|0.32|5|0.035|0|83.7
+Orange juice, frozen concentrate, unsweetened, undiluted|liquid|"09214"|284|1.0 cup|236.588|1.2003990059|452|6.79|0.6|108.4|2.3|106.13|91|0.99|9|0.068|0|391.6
+Orange peel, raw|mix-ins|"09216"|6|1.0 tbsp|14.79|0.4056795132|6|0.09|0.01|1.5|0.6|--|10|0.05|0|0.001|0|8.2
+Oranges, raw, California, valencias|fruit|"09201"|180|1.0 cup|236.588|0.7608162713|88|1.87|0.54|21.4|4.5|--|72|0.16|0|0.063|0|87.3
+Papayas, pieces|fruit|"09226"|145|1.0 cup|236.588|0.6128797741|62|0.68|0.38|15.69|2.5|11.34|29|0.36|12|0.117|0|88.3
+Parsley|small volume dry|||1.0 teaspoon||0.11|1|0.1|0|0.2|0.1|0||2%|1|0|0|1%
+Passion-fruit, (granadilla), raw|fruit|"09231"|236|1.0 cup|236.588|0.9975146668|229|5.19|1.65|55.18|24.5|26.43|28|3.78|66|0.139|0|70.8
+Pastry flour|bulk dry||30|0.25 cup|59.147|0.5072108475|100|3|0.5|22|4|0||8%||||
+Peaches, canned with extra heavy syrup|fruit|"09242"|262|1.0 cup|236.588|1.1074103505|252|1.23|0.08|68.28|2.6|--|8|0.76|21|0.008|0|3.1
+Peaches, canned with light syrup|fruit|"09240"|251|1.0 cup|236.588|1.0609160228|136|1.13|0.08|36.52|3.3|33.26|8|0.9|13|0.008|0|6
+Peanuts, dry-roasted, no salt|mix-ins|"16390"|146|1.0 cup|236.588|0.6171065312|854|34.57|72.5|31.4|11.7|6.1|79|3.3|9|10.064|--|0
+Pears, canned with light syrup|fruit|"09256"|251|1.0 cup|236.588|1.0609160228|143|0.48|0.08|38.08|4|30.37|13|0.7|--|0.005|0|1.8
+Pears, slices|fruit|"09252"|140|1.0 cup|236.588|0.5917459888|80|0.5|0.2|21.32|4.3|13.65|13|0.25|1|0.031|0|6
+Persimmons, 2-1/2" diameter|fruit|"09263"|168|1.0 fruit||#DIV/0!|118|0.97|0.32|31.23|6|21.05|13|0.25|2|0.034|0|12.6
+Plantains, mashed cooked|viscous "liquid"|"09278"|200|1.0 cup|236.588|0.8453514126|232|1.58|0.36|62.3|4.6|28|4|1.16|10|0.138|0|21.8
+Pomegranate juice, bottled|liquid|"09442"|249|1.0 cup|236.588|1.0524625087|134|0.37|0.72|32.69|0.2|31.5|27|0.25|22|0.192|0|0.2
+Potato starch|small volume dry||42|0.25 cup|65.897|0.6373583016|163|0.05|0|34|0|0|1%|3%|3|0|0|
+Powdered sugar|sweeteners||30|0.25 cup|59.147|0.5072108475|120|0|0|30|0|29|||0|0|0|
+Quinoa|bulk dry||43|0.25 cup|59.147|0.7270022148|157|6|2.575|27.275|2.975|0|2%|11%|2|0.3||
+Quinoa flour|bulk dry||28|0.25 cup|59.147|0.473396791|110|4|1.5|18|2|0|1%|7%|8|0||
+Rapid-rise/bread machine yeast|small volume dry||4|1.0 teaspoon|4.92892|0.8115368073|0|0|0|0|0|0|||0|0|0|16%
+Rice flour, brown|bulk dry|"20090"|158|1.0 cup|236.588|0.6678276159|574|11.42|4.39|120.84|7.3|1.34|17|3.13|13|0.88|--|0
+Rice, white, cooked with salt|bulk dry|"20545"|158|1.0 cup|236.588|0.6678276159|205|4.25|0.44|44.51|0.6|0.08|16|0.32|604|0.122|--|0
+Rolled oats|bulk dry||40|0.5 cup|118.294|0.338140565|150|5|3|27|4|1||11%||0.5||
+Rye flour, dark|bulk dry||31|0.25 cup|59.147|0.5241178758|110|4|1|21|4|1|2%|10%||||
+Rye flour, light|bulk dry||27|0.25 cup|59.147|0.4564897628|100|2|0.5|21|1|1||4%||||
+Saffron|small volume dry||2|1.0 tablespoon|14.79|0.1352265044|7|0.2|0.1|1.4|0.1|0||1%|3|0|0|3%
+Salad dressing, mayonnaise, regular|viscous "liquid"|"04025"|13.8|1.0 tbsp||1|94|0.13|10.33|0.08|0|--|1|0.03|88|1.615|6|0
+Salad dressing, mayonnaise, vegetable oil|viscous "liquid"|"04026"|13.8|1.0 tablespoon||1|99|0.15|10.96|0.37|0|0.07|2|0.07|78|1.187|8|0
+Seeds, pumpkin or squash, roasted with salt|mix-ins|"12516"|118|1.0 cup|236.588|0.4987573334|677|35.21|57.88|17.36|7.7|1.52|61|9.52|302|10.082|0|2.1
+Seeds, sunflower, oil roasted, no salt|mix-ins|"12038"|135|1.0 cup|236.588|0.5706122035|799|27.08|69.26|30.9|14.3|4.2|117|5.78|4|9.542|0|1.5
+Semisweet chocolate chips|mix-ins||15|1.0 tablespoon|14.79|1.014198783|80|1|4|10|1|8||6%|0|2.5|0|
+Shortening, soybean (hydrogenated)|fats|"04546"|12.8|1.0 tablespoon||0.88|113|0|12.8|0|--|--|0|--|--|2.816|--|0
+Sorghum flour|bulk dry|"20648"|121|1.0 cup|236.588|0.5114376046|437|9.52|3.98|93.74|8|2.26|15|3.62|5|0.575|--|0
+Soy flour, full-fat|bulk dry|"16416"|85|1.0 cup|236.588|0.3592743503|373|32.38|18.58|25.82|--|--|160|4.95|10|2.688|--|0
+Soy meal, defatted|bulk dry|"16419"|122|1.0 cup|236.588|0.5156643617|411|60.02|2.92|43.79|--|--|298|16.71|4|0.327|--|0
+Soy milk, unsweetened|liquids||240|1.0 cup|236.588|1.0144216951|100|7|4|8|1|6|30%|6%|120|0.5|0|
+Soy protein isolate|bulk dry|"16423"|28.35|1.0 oz||0.47|91|25.04|0.15|0.73|0.6|0|50|4.11|14|0.019|--|0
+Spices, anise seed, whole|small volume dry|"02002"|2.1|1.0 tsp|4.929|0.4260499087|7|0.37|0.33|1.05|0.3|--|14|0.78|0|0.012|0|0.4
+Spices, bay leaf, crumbled|small volume dry|"02004"|0.6|1.0 tsp|4.929|0.1217285453|2|0.05|0.05|0.45|0.2|--|5|0.26|0|0.014|0|0.3
+Spices, caraway seed|small volume dry|"02005"|2.1|1.0 tsp|4.929|0.4260499087|7|0.42|0.31|1.05|0.8|0.01|14|0.34|0|0.013|0|0.4
+Spices, cinnamon, ground|small volume dry|"02010"|2.6|1.0 tsp|4.929|0.5274903632|6|0.1|0.03|2.1|1.4|0.06|26|0.22|0|0.009|0|0.1
+Spices, curry powder|small volume dry|"02015"|2|1.0 tsp|4.929|0.4057618178|6|0.29|0.28|1.12|1.1|0.06|10|0.38|1|0.033|0|0
+Spices, ginger, ground|small volume dry|"02021"|1.8|1.0 tsp|4.929|0.365185636|6|0.16|0.08|1.29|0.3|0.06|2|0.36|0|0.047|0|0
+Spices, mace, ground|small volume dry|"02022"|1.7|1.0 tsp|4.929|0.3448975451|8|0.11|0.55|0.86|0.3|--|4|0.24|1|0.162|0|0.4
+Spices, marjoram, dried|small volume dry|"02023"|0.6|1.0 tsp|4.929|0.1217285453|2|0.08|0.04|0.36|0.2|0.02|12|0.5|0|0.003|0|0.3
+Spices, mustard seed, ground|small volume dry|"02024"|2|1.0 tsp|4.929|0.4057618178|10|0.52|0.72|0.56|0.2|0.14|5|0.18|0|0.04|0|0.1
+Spices, nutmeg, ground|small volume dry|"02025"|2.2|1.0 tsp|4.929|0.4463379996|12|0.13|0.8|1.08|0.5|0.63|4|0.07|0|0.571|0|0.1
+Spices, savory, ground|small volume dry|"02039"|1.4|1.0 tsp|4.929|0.2840332725|4|0.09|0.08|0.96|0.6|--|30|0.53|0|0.046|0|0.7
+Spices, tarragon, dried leaves|small volume dry|"02041"|0.6|1.0 tsp|4.929|0.1217285453|2|0.14|0.04|0.3|0|--|7|0.19|0|0.011|0|0.3
+Spices, thyme, dried leaves|small volume dry|"02042"|1|1.0 tsp|4.929|0.2028809089|3|0.09|0.07|0.64|0.4|0.02|19|1.24|1|0.027|0|0.5
+Spices, turmeric, ground|small volume dry|"02043"|3|1.0 tsp|4.929|0.6086427267|9|0.29|0.1|2.01|0.7|0.1|5|1.65|1|0.055|0|0
+Splenda|sweeteners||1|1.0 teaspoon|4.92892|0.2028842018|0|0|0|1|1|0|||0|0|0|
+Stevia, granulated|sweeteners||1|1.0 teaspoon|4.92892|0.2028842018|0|0|0|0|0|0|||0|0|0|
+Stevia, liquid|sweeteners|||||1|0|0|0|0|0|0|||0|0|0|
+Sweetened condensed milk|sweeteners||20|1.0 tablespoon|14.79|1.3522650439|60|1.5|0.75|12|0|12|||20|0.5|3|
+Table salt|small volume dry||8|1.0 teaspoon|4.92892|1.6230736145|0|0|0|0|0|0|||2360|0|0|
+Tangerines, (mandarin oranges), sections|fruit|"09218"|195|1.0 cup|236.588|0.8242176273|103|1.58|0.6|26.01|3.5|20.63|72|0.29|4|0.076|0|52.1
+Teff flour|bulk dry||31|0.25 cup|59.147|0.5241178758|113|4|1|22|4|0|5%|13%|5|0||
+Teff, cooked|bulk dry|"20143"|252|1.0 cup|236.588|1.0651427799|255|9.75|1.64|50.05|7.1|--|123|5.17|20|||
+Tofu, raw, firm|viscous "liquid"|"16426"|126|0.5 cup|118.294|1.0651427799|183|19.88|10.99|5.38|2.9|--|861|3.35|18|1.589|0|0.3
+Vanilla extract|liquid|"02050"|4.2|1.0 tsp|4.929|0.8520998174|12|0|--|0.53|0|--|0|0.01|0|0|--|0
+Vegan margarine, earth balance|fats||14|1.0 tablespoon|14.79|0.9465855308|110|0|11|0|0|0|||100|3|0|
+Vegetable shortening|fats||15|1.0 tablespoon|14.79|1.014198783|120|0|13|0|0|0|||0|3|0|
+Vinegar, balsamic|liquid||15|1.0 tablespoon||1.01|10|0|0|3|0|3||||||
+Vinegar, cider|liquid||240|1.0 cup||1.01|48|0|0|1.6|0|1.6|||16|||
+Vinegar, white distilled|liquid||238|1.0 cup||1.01|48|0|0|0|0|0||||||
+Wheat bran|bulk dry||15|0.25 cup|59.147|0.2536054238|30|2|0|10|7|0||10%|0|0||
+Wheat flour, cake|bulk dry||30|0.25 cup|59.147|0.5072108475|110|3|0|23|1|0|0%|2%||||
+Wheat flour, self-rising|bulk dry||31|0.25 cup|59.147|0.5241178758|111|3.1|0.3|23.2|0.85|0.075|||397|0.05||
+Wheat flour, white, all-purpose, enriched, calcium-fortified|bulk dry|"20381"|125|1.0 cup|236.588|0.5283446329|455|12.91|1.22|95.39|3.4|--|315|5.8|2|0.194|--|0
+Wheat flour, white, bread, enriched|bulk dry|"20083"|137|1.0 cup|236.588|0.5790657176|495|16.41|2.27|99.37|3.3|0.42|21|6.04|3|0.334|--|0
+Wheat gluten|small volume dry||9|1.0 tablespoon|14.79|0.6085192698|35|5|0|3|0|0||2%|0|0|0|
+Whole buckwheat flour|bulk dry||30|0.25 cup|59.147|0.5072108475|101|3.775|0.925|21.175|3|0.775|1%|7%|3|0.2||
+Whole spelt flour|bulk dry||31|0.25 cup|59.147|0.5241178758|120|4|1|22|4|0||8%||||
+Whole whear pastry flour|bulk dry||30|0.25 cup|59.147|0.5072108475|110|3|0.5|23|4|0|2%|8%|0|0||
+Whole wheat flour (white or red wheat)|bulk dry||32|0.25 cup|59.147|0.5410249041|110|4|0.5|23|4|0|2%|6%||||
+Wine|liquid||103|3.5 fl oz||1|85|0.1||2.8||0.8|1%|2%|5|||
+Xanthan gum|small volume dry||24|2.0 tablespoon|29.58|0.8113590264|80|0|0|20|20|0|60%||420|0|0|
+Yogurt, greek|viscous "liquids"||227|1.0 cup|236.588|0.9594738533|130|23.1|0|9.1|0|9.1|30%||95|0|3|
+Yogurt, plain, low fat, 12 grams protein per 8 ounce|viscous "liquid"|"01117"|170|1.0 container (6 oz)||1.04|107|8.92|2.64|11.97|0|--|311|0.14|119|1.7|10|1.4
+Yogurt, plain, whole milk, 8 grams protein per 8 ounce|viscous "liquid"|"01116"|170|1.0 container (6 oz)||1.04|104|5.9|5.52|7.92|0|--|206|0.08|78|3.563|22|0.8
