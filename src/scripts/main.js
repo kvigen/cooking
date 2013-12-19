@@ -9,4 +9,5 @@ require.config({
 var recipeMenu = undefined;
 define(['recipe'], function(Menu) { 
   recipeMenu = new Menu();
+
 });

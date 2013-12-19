@@ -19,5 +19,8 @@ Engineering TODO list:
 - Figure out a better way to organize java script files
 - Go over performance advice for javascript
 - Figure out a better system for generating the headers we need (see what CM does...)
+- Use jslint
 - Testing...
 - Remove the Django hacks and integrate with a true web server (apache??)
+- We re-render the entire view each time with backbone. There are apparently
+ways to make this more efficient.

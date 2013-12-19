@@ -1,5 +1,6 @@
 from django.shortcuts import render_to_response
 from django.http import HttpResponse
+import json
 import os
 import recipes
 
@@ -24,15 +25,14 @@ def recipe_crud(request, recipe_id):
 
 # Save a recipe. Note that this will overwrite the pre-existing recipe
 def _save_recipe(request, recipe_id):
-  recipe_name = request.POST['name']
   recipe_map = recipes.get_recipe_map()
-  recipe = { 'name': recipe_name, 'id': int(recipe_id)}
-  recipe_map[recipe_id] = recipe
+  recipe = json.loads(request.body)
+  recipe_map[recipe_id] = {"id": recipe["id"], "name": recipe["name"]};
   recipes.save_recipe_map(recipe_map)
 
   recipe_file = _get_recipe_filename(recipe_id)
   with open(recipe_file, "w+") as myfile:
-    myfile.write(request.POST['recipe'])
+    myfile.write(request.body)
   return HttpResponse("Success!")
 
 def _get_recipe(request, recipe_id):

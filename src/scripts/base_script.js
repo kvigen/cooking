@@ -3,5 +3,5 @@ it up at some point */
 
 jQuery(document).ready(function($) {
 
-  $("#menu").load("../html/navbar.html");
+  $("#navbar").load("../html/navbar.html");
 });
