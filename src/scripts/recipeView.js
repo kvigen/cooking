@@ -15,6 +15,7 @@ var RecipeView = Backbone.View.extend({
   // Initialize should be called with an object that has an ID field
   initialize: function(recipeData) {
      var self = this;
+     this.ingredientViews = {};
      this.recipe = new RecipeModel(recipeData);
      // TODO: Can't get this to work...
      this.recipe.fetch({success: function() { self.render() }});
@@ -30,6 +31,7 @@ var RecipeView = Backbone.View.extend({
     $("#recipeName").text(this.recipe.get("name"));
     // I should be using templates...
     $("#ingredients").empty();
+    this.ingredientViews = {};
     $("#ingredients").append("<th>Ingredient</th><th>Quantity</th><th>Units</th><th></th>");
     this.recipe.get("ingredients").each(function(ingredient) {
       this.renderIngredient(ingredient);
@@ -41,6 +43,7 @@ var RecipeView = Backbone.View.extend({
     view.parentView = this;
     // Add to the list of ingredients
     $("#ingredients").append(view.render().el);
+    this.ingredientViews[ingredient] = view;
   }, 
 
   addIngredient: function(event) {
@@ -49,12 +52,20 @@ var RecipeView = Backbone.View.extend({
   },
 
   removeIngredient: function(ingredient) {
-    this.recipe.get("ingredients").remove(ingredient);
-    this.render();
+    this.recipe.remove(ingredient);
   },
 
   save: function() {
+    this.update();
     this.recipe.save();
+  },
+
+  update: function() {
+    for (var k in this.ingredientViews) {
+      if (this.ingredientViews.hasOwnProperty(k)) {
+        this.ingredientViews[k].update();
+      }
+    }
   }
 
 });

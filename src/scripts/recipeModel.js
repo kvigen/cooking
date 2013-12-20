@@ -19,6 +19,11 @@ var RecipeModel = Backbone.Model.extend({
     this.trigger('add', ingredient);
   },
 
+  remove: function(ingredient) {
+    this.get("ingredients").remove(ingredient);
+    this.trigger('remove', ingredient);
+  },
+
   urlRoot: "/recipes/recipe"
 });
 

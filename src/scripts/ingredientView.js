@@ -7,11 +7,12 @@ IngredientView = Backbone.View.extend({
   events: {
     // Not quite sure what events to support yet...
     //'keypress .edit': 'updateOnEnter',
-    "click button": "remove"
+    "click button": "removeIngredient"
   },
 
   initialize: function() {
     this.listenTo(this.model, 'change', this.render);
+    this.listenTo(this.model, 'destroy', this.removeIngredient)
   },
 
   render: function() {
@@ -23,17 +24,27 @@ IngredientView = Backbone.View.extend({
     return this;
   },
 
-  remove: function() {
-    this.parentView.removeIngredient(this.model);
-  },
-
   getElementHtml: function(value) {
     return "<th><input type=\"text\" value=\"" + value + "\"/></th>";
   },
 
+  removeIngredient: function() {
+    this.parentView.removeIngredient(this.model);
+    // We don't want the parent to do this?? There isn't clear ownership here
+    this.remove();
+  },
+
   edit: function() {
     this.$el.addClass("editing");
-  }
+  },
+
+  // set the model values from the view
+  update: function() {
+    this.model.set("name", this.$("th:nth-child(1) input").val());
+    this.model.set("quantity", parseFloat(this.$("th:nth-child(2) input").val()));
+    this.model.set("units", this.$("th:nth-child(3) input").val());
+  },
+
 
 });
 
