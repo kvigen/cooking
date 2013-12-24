@@ -7,15 +7,14 @@ class Optimizations(object):
     self.optimizations = {}
     double = d.Double()
     self.optimizations[double.name()] = double
-  def __init__(self):
-    self.optimizations = {}
     voltoweight = v.VolToWeight()
     self.optimizations[voltoweight.name()] = voltoweight
+
   def get_optimizations(self, recipe):
     ret = []
     for optimization in self.optimizations.itervalues():
       if optimization.is_applicable(recipe):
-    ret.append(optimization.name()) 
+    	ret.append(optimization.name())
     return ret
 
   def apply_optimization(self, recipe, optimization_name):
